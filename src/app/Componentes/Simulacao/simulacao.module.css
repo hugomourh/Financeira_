@@ -1,0 +1,83 @@
+
+
+.resposta{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15vh;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+.formulario{
+
+ flex-direction: column;
+ border: 1px solid black; 
+width: 50vw;
+height: 70vh;
+margin: auto;
+border-radius: 16px;
+text-align: center;
+margin-bottom: 5vh;
+}
+
+.inputs{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 25vw; 
+    border-radius: 9px;
+}
+
+.radio{
+    padding-top: 3px;
+}
+
+.botao{
+    padding-top: 10px;
+}
+
+.MensagemResposta{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    margin-top: 5vh;
+    border-radius: 9px;
+    align-items: center;
+    justify-items: center;
+}
+
+.tabela{
+    justify-items: center;
+    height: 5vh;
+}
+
+.coluna{
+    border: 1px solid black;
+    width: 25vw;
+    height: 5vh;
+    text-align: center;
+    
+}
+
+.colunaBlack{
+    background-color: black;
+    color: white;
+    opacity: 80%;
+}
+
+@media (max-width: 768px){
+    .formulario{
+        width: 80vw;
+        margin: auto;
+
+    }
+
+.inputs{
+width: 50vw;
+}
+
+}
+
+

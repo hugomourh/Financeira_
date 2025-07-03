@@ -1,0 +1,22 @@
+.PriBloco{
+    display: flex;
+    border: 1px solid black;
+    border-radius: 16px;
+    width: 80vw;
+    margin: auto;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 5vh;
+}
+
+.imagem{
+    width: 25vw;
+    height: 35vh;
+}
+
+@media (max-width: 767.98px) {
+  .PriBloco{
+    flex-direction: column;
+    text-align: center;
+  }
+}

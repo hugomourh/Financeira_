@@ -1,0 +1,13 @@
+.Titulo{
+width: 90vw;
+height: 10vh;
+margin: auto;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+
+}
+
+.hr{
+height: 150vh;    
+}
