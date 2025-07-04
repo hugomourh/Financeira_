@@ -50,9 +50,9 @@ margin-bottom: 5vh;
 
 .tabela{
     justify-items: center;
-    height: 5vh;
-    margin-bottom: 35vh;
-    position: relative;
+    height: 35vh;
+    padding-bottom: 5vh;
+    
 }
 
 .coluna{
@@ -68,6 +68,8 @@ margin-bottom: 5vh;
     color: white;
     opacity: 80%;
 }
+
+
 
 
 
