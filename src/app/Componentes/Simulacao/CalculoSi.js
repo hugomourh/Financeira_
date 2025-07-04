@@ -62,15 +62,15 @@ setTaxaJuros(Juros)
     if (financiamento === "Emprestimos") {
       if (pendencia === "Nao") {
         if (parcelasNum > 36) {
-          mensagemalerta.push("As parcelas não podem ser maiores que 36x.");
+          mensagemalerta.push("As parcelas de Empréstimo não podem ser maiores que 36x.");
         } else if (ValorDasParcelas > SalarioPorcentagem) {
           mensagens.push("O valor da parcela não pode ultrapassar 30% do salário.");
         } else {
           mensagemAutori.push(`Empréstimo autorizado`);
         }
       } else {
-        if (parcelasNum > 48) {
-          mensagemalerta.push("As parcelas não podem ser maiores que 48x.");
+        if (parcelasNum > 36) {
+          mensagemalerta.push("As parcelas Empréstimo não podem ser maiores que 48x.");
         } else if (ValorDasParcelas > SalarioPendenciaPorcentagem) {
           mensagens.push("Nome sujo e ainda querendo empréstimo? Está querendo enganar quem?"); <br />
           mensagens.push("O valor das parcelas não pode ultrapassar 5% do salário."); 
@@ -87,7 +87,7 @@ setTaxaJuros(Juros)
     if (financiamento === "Veiculo") {
       if (pendencia === "Nao") {
         if (parcelasNum > 48) {
-          mensagemalerta.push("As parcelas não podem ser maiores que 48x.");
+          mensagemalerta.push("As parcelas para financiamento veicular não podem ser maiores que 48x.");
         } else if (ValorDasParcelas > SalarioPorcentagem) {
           mensagens.push("O valor da parcela não pode ultrapassar 30% do salário.");
         } else {
@@ -96,7 +96,7 @@ setTaxaJuros(Juros)
         }
       } else {
         if (parcelasNum > 48) {
-          mensagemalerta.push("As parcelas não podem ser maiores que 48x.");
+          mensagemalerta.push("As parcelas para financiamento veicular não podem ser maiores que 48x.");
         } else if (ValorDasParcelas > SalarioPendenciaPorcentagem) {
           mensagens.push("Nome sujo e ainda querendo empréstimo? Está querendo enganar quem?");
           mensagens.push("O valor das parcelas não pode ultrapassar 5% do salário.");
@@ -113,7 +113,7 @@ setTaxaJuros(Juros)
     if (financiamento === "Imovel") {
       if (pendencia === "Nao") {
         if (parcelasNum > 360) {
-          mensagemalerta.push("As parcelas não podem ser maiores que 360x.");
+          mensagemalerta.push("As parcelas para financiamento imobiliario não podem ser maiores que 360x.");
         } else if (ValorDasParcelas > SalarioPorcentagem) {
           mensagens.push("O valor da parcela não pode ultrapassar 30% do salário.");
         } else {
@@ -122,7 +122,7 @@ setTaxaJuros(Juros)
         }
       } else {
         if (parcelasNum > 360) {
-          mensagemalerta.push("As parcelas não podem ser maiores que 360x.");
+          mensagemalerta.push("As parcelas para financiamento imobiliario não podem ser maiores que 360x.");
         } else if (ValorDasParcelas > SalarioPendenciaPorcentagem) {
           mensagens.push("Nome sujo e ainda querendo empréstimo? Está querendo enganar quem?"); <br />
           mensagens.push("O valor das parcelas não pode ultrapassar 5% do salário.");

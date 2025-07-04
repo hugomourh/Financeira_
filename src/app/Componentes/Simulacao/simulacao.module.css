@@ -13,7 +13,7 @@
  flex-direction: column;
  border: 1px solid black; 
 width: 50vw;
-height: 70vh;
+height: 75vh;
 margin: auto;
 border-radius: 16px;
 text-align: center;
@@ -51,6 +51,7 @@ margin-bottom: 5vh;
 .tabela{
     justify-items: center;
     height: 5vh;
+    margin-bottom: 35vh;
 }
 
 .coluna{
