@@ -154,6 +154,7 @@ required
     <div className={estilo.tabela}>
   {Autorizacao && (
  <>
+ 
 <h3>Empréstimo Autorizado</h3>
   <table >
     <thead>
@@ -181,7 +182,9 @@ required
       </tr>
     </tbody>
   </table>
+
   </>
+  
 )}
     
 

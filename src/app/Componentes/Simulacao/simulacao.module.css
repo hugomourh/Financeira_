@@ -52,6 +52,7 @@ margin-bottom: 5vh;
     justify-items: center;
     height: 5vh;
     margin-bottom: 35vh;
+    position: relative;
 }
 
 .coluna{
@@ -67,6 +68,8 @@ margin-bottom: 5vh;
     color: white;
     opacity: 80%;
 }
+
+
 
 @media (max-width: 768px){
     .formulario{
