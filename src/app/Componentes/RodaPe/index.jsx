@@ -1,4 +1,4 @@
-
+import estilo from "@/app/Componentes/RodaPe/RodaPe.module.css"
 
 
 export default function RodaPe(){
@@ -6,7 +6,7 @@ export default function RodaPe(){
 
         <>
         
-        
+        <p className={estilo.RodaPe}>Todos os direitos reservados</p>
         
         </>
     )
