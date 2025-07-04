@@ -58,15 +58,14 @@ margin-bottom: 5vh;
 .coluna{
     border: 1px solid black;
     width: 25vw;
-    height: 5vh;
     text-align: center;
-    
+    width: 40vw;
 }
 
 .colunaBlack{
     background-color: black;
     color: white;
-    opacity: 80%;
+    opacity: 70%;
 }
 
 
@@ -84,6 +83,9 @@ margin-bottom: 5vh;
 width: 50vw;
 }
 
+.coluna{
+   
+}
 }
 
 

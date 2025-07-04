@@ -156,7 +156,7 @@ required
  <>
  
 <h3>Empréstimo Autorizado</h3>
-  <table className={estilo.dados} >
+  <table >
     <thead>
       <tr >
         <th className={estilo.coluna} >Informações</th>
