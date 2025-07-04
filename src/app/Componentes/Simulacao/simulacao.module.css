@@ -51,7 +51,7 @@ margin-bottom: 5vh;
 .tabela{
     justify-items: center;
     height: 35vh;
-    padding-bottom: 5vh;
+    
     
 }
 
@@ -59,7 +59,7 @@ margin-bottom: 5vh;
     border: 1px solid black;
     width: 25vw;
     text-align: center;
-    width: 40vw;
+    width: 25vw;
 }
 
 .colunaBlack{
